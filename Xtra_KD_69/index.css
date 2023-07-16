@@ -59,7 +59,31 @@ color: rgba(0, 0, 0, 0.589);
     font-size: larger;
     font-weight: bold;
     background-color:#FF900E ;
+    cursor: pointer;
 }
-.banner-image{
+.image{
     padding-bottom: 45px;
+}
+/* responsive for mobile devices */
+@media screen and (max-width: 576px) {
+    .header-nav {
+        flex-direction: column;
+    }
+    .header-nav > ul > li{
+        padding: 0px;
+    }
+    .header-nav > ul {
+        justify-content: space-evenly;
+    }
+    .banner{
+        padding: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    .header-nav > h3 {
+        text-align: center;
+        margin: 0px;
+    } 
+    
 }
