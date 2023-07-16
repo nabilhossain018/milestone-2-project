@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:'Work Sans', sans-serif;
+}
+/* header nav related styles */
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 144, 14, 0.10);
+}
+.header-nav > h3 {
+    margin: 22px 1px 0px 126px;
+    padding: 0px 0px 25px 0px;
+    font-size: x-large;
+}
+.header-nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 24px 0px 0px 0px;
+    font-size: larger;
+    
+}
+.header-nav > ul > li{
+    padding: 0px 90px 0px 0px;
+}
+.header-nav > ul > li > a{
+    text-decoration: none;
+}
+/* header banner related styles */
+.banner{
+    background: rgba(255, 144, 14, 0.10);
+    text-align: center;
+    /* align-items: center; */
+}
+.banner > h1{
+font-size: 64px;
+padding: 116px 0px 20px 0px;
+}
+.banner > p{
+line-height: 26px;
+color: rgba(0, 0, 0, 0.589);
+}
+.button{
+    margin: 30px 0px 30px 0px;
+}
+.button > button {
+    width: 180px;
+    height: 64px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    background-color:#FF900E ;
+}
+.banner-image{
+    padding-bottom: 45px;
+}
